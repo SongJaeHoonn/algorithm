@@ -27,4 +27,3 @@ public class Q2460 {
         bw.write(String.valueOf(max));
         bw.flush();
     }
-}
