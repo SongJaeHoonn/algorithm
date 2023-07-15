@@ -33,7 +33,7 @@ public class Q2960 {
                     if(count == k) break;
                 }
             }
-            if(count == k) {  //count가 K와 같아지면
+            if(count == k) {  //count가 K와 같아지면~~~~~
                 bw.write(String.valueOf(delete));   //그 시점에서 지운 수를 출력한다
                 break;  //반복문을 종료한다.
             }
