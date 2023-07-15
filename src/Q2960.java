@@ -23,7 +23,7 @@ public class Q2960 {
         while(true){
             p = list.get(0);    //리스트의 가장 첫번째 요소를 담아준다
             list.remove(Integer.valueOf(p));    //p를 객체화하여 리스트에서 제거한다
-            delete = p; //p를 지운다
+            delete = p; //p를 지운다~~
             count++;   //지울 때마다 count + 1
             for(int i = 2; i * p <= n; i++){
                 if(list.contains(i * p)) {  //리스트에 p의 배수가 있으면
