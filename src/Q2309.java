@@ -23,7 +23,7 @@ public class Q2309 {
             list = Integer.parseInt(st.nextToken());
             country[list - 1][0] = Integer.parseInt(st.nextToken());
             country[list - 1][1] = Integer.parseInt(st.nextToken());
-            country[list - 1][2] = Integer.parseInt(st.nextToken());
+            country[list - 1][2] = Integer.parseInt(st.nextToken());;
         }
 
         for(int i = 0; i < n; i++){
